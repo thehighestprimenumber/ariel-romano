@@ -8,7 +8,7 @@ const LanguageSwitcher = () => {
   };
 
   return (
-    <div className="language-switcher flex items-center gap-2">
+    <div className="language-switcher ">
       <button
         onClick={() => changeLanguage('en')}
         className={`text-sm ${i18n.language === 'en' ? 'font-bold' : 'text-gray-600'}`}

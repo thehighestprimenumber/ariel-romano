@@ -43,9 +43,9 @@ const Videos: React.FC = () => {
           </div>
         ))}
       </div>
-      <a href="https://youtube.com/@arielromano" className="view-more">
+      {/* <a href="https://youtube.com/@arielromano" className="view-more">
         {t('videos.viewMore')}
-      </a>
+      </a> */}
     </section>
   )
 }
