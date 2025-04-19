@@ -1,0 +1,50 @@
+{
+  "translation": {
+    "nav": {
+      "home": "Home",
+      "about": "About",
+      "portfolio": "Portfolio",
+      "contact": "Contact"
+    },
+    "home": {
+      "welcome": "Welcome",
+      "intro": "I'm Ariel Romano, a professional photographer"
+    },
+    "about": {
+      "title": "About Me",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed felis lorem, laoreet in maximus vel, blandit sit amet diam. Aenean porta lorem malesuada quam lobortis sollicitudin. Donec non tortor ut nunc sagittis feugiat ac eget purus. Sed et ipsum nec neque sodales pharetra. Nunc cursus ut sem id condimentum. Suspendisse in dolor ut tortor varius vulputate. Phasellus non mollis sem. Nullam rutrum eleifend condimentum. Nullam eu enim arcu. Fusce vitae lectus lectus. Etiam in nibh non nisl maximus aliquet. Nunc elementum, ante in porta vestibulum, leo mauris tempor felis, sit amet rhoncus nisl justo ac justo. Integer vel ante laoreet, eleifend lectus ac, posuere elit. Vestibulum sit amet urna fermentum, finibus turpis nec, vulputate diam. Donec tempus ullamcorper metus, nec faucibus mi ultricies et.",
+      "bio": "Curabitur eu magna ac elit tempus malesuada vitae non nulla. Nulla luctus rutrum arcu at pulvinar. Aenean nec consequat nibh. Maecenas pulvinar varius erat, et feugiat diam. Suspendisse ultricies mi neque, non efficitur mi convallis et. Fusce eu suscipit nunc, in congue ipsum. In ante quam, fermentum ac venenatis vel, tempus eu nibh. Curabitur sit amet laoreet tortor, dignissim congue ex. Integer vel tortor quam. Suspendisse mi neque, rutrum nec mattis id, vulputate congue nisi. Mauris augue sem, fermentum sit amet accumsan et, aliquet vel leo."
+    },
+    "music": {
+      "title": "Music",
+      "description": "Explore my musical journey and latest compositions",
+      "listen": "Listen on Spotify",
+      "viewMore": "View More Tracks"
+    },
+    "videos": {
+      "title": "Videos",
+      "description": "Watch my latest video productions and collaborations",
+      "watch": "Watch on YouTube",
+      "viewMore": "View More Videos"
+    },
+    "portfolio": {
+      "title": "My Work",
+      "viewMore": "View More"
+    },
+    "contact": {
+      "title": "Get in Touch",
+      "description": "Let's work together on your next project",
+      "name": "Name",
+      "email": "Email",
+      "message": "Message",
+      "send": "Send Message",
+      "success": "Message sent successfully!",
+      "error": "There was an error sending your message. Please try again."
+    },
+    "language": {
+      "select": "Select Language",
+      "en": "English",
+      "es": "Spanish"
+    }
+  }
+} 

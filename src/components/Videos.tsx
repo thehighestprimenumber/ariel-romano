@@ -1,4 +1,5 @@
 import React from 'react'
+import { useTranslation } from 'react-i18next'
 
 interface VideoItem {
   title: string;
@@ -8,21 +9,24 @@ interface VideoItem {
 
 const videoItems: VideoItem[] = [
   {
-    title: "Video 1",
+    title: "Irregular",
     url: "https://youtu.be/5p9cN66mTuE",
     videoId: "5p9cN66mTuE"
   },
   {
-    title: "Video 2",
+    title: "Algo Camina",
     url: "https://youtu.be/7Z9re5a4pMo",
     videoId: "7Z9re5a4pMo"
   }
 ];
 
 const Videos: React.FC = () => {
+  const { t } = useTranslation();
+
   return (
     <section id="videos" className="section">
-      <h2>Videos</h2>
+      <h2>{t('videos.title')}</h2>
+      <p className="description">{t('videos.description')}</p>
       <div className="video-container">
         {videoItems.map((item, index) => (
           <div key={index} className="video-item">
@@ -39,6 +43,9 @@ const Videos: React.FC = () => {
           </div>
         ))}
       </div>
+      <a href="https://youtube.com/@arielromano" className="view-more">
+        {t('videos.viewMore')}
+      </a>
     </section>
   )
 }

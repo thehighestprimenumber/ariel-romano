@@ -1,0 +1,51 @@
+{
+  "translation": {
+    "nav": {
+      "home": "Inicio",
+      "about": "Sobre mí",
+      "portfolio": "Portafolio",
+      "contact": "Contacto",
+      "music": "Música",
+      "videos": "Videos"
+    },
+    "home": {
+      "welcome": "Bienvenidos",
+      "intro": "Soy Ariel Romano, fotógrafo profesional"
+    },
+    "about": {
+      "title": "Sobre mí",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed felis lorem, laoreet in maximus vel, blandit sit amet diam. Aenean porta lorem malesuada quam lobortis sollicitudin. Donec non tortor ut nunc sagittis feugiat ac eget purus. Sed et ipsum nec neque sodales pharetra. Nunc cursus ut sem id condimentum. Suspendisse in dolor ut tortor varius vulputate. Phasellus non mollis sem. Nullam rutrum eleifend condimentum. Nullam eu enim arcu. Fusce vitae lectus lectus. Etiam in nibh non nisl maximus aliquet. Nunc elementum, ante in porta vestibulum, leo mauris tempor felis, sit amet rhoncus nisl justo ac justo. Integer vel ante laoreet, eleifend lectus ac, posuere elit. Vestibulum sit amet urna fermentum, finibus turpis nec, vulputate diam. Donec tempus ullamcorper metus, nec faucibus mi ultricies et.",
+      "bio": "Curabitur eu magna ac elit tempus malesuada vitae non nulla. Nulla luctus rutrum arcu at pulvinar. Aenean nec consequat nibh. Maecenas pulvinar varius erat, et feugiat diam. Suspendisse ultricies mi neque, non efficitur mi convallis et. Fusce eu suscipit nunc, in congue ipsum. In ante quam, fermentum ac venenatis vel, tempus eu nibh. Curabitur sit amet laoreet tortor, dignissim congue ex. Integer vel tortor quam. Suspendisse mi neque, rutrum nec mattis id, vulputate congue nisi. Mauris augue sem, fermentum sit amet accumsan et, aliquet vel leo."
+    },
+    "music": {
+      "title": "Música",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      "viewMore": "Ver más canciones"
+    },
+    "videos": {
+      "title": "Videos",
+      "description": "Mira mis últimas producciones y colaboraciones en video",
+      "watch": "Ver en YouTube",
+      "viewMore": "Ver más videos"
+    },
+    "portfolio": {
+      "title": "Mi Trabajo",
+      "viewMore": "Ver más"
+    },
+    "contact": {
+      "title": "Contacto",
+      "description": "Trabajemos juntos en tu próximo proyecto",
+      "name": "Nombre",
+      "email": "Correo electrónico",
+      "message": "Mensaje",
+      "send": "Enviar mensaje",
+      "success": "¡Mensaje enviado con éxito!",
+      "error": "Hubo un error al enviar tu mensaje. Por favor, inténtalo de nuevo."
+    },
+    "language": {
+      "select": "Seleccionar idioma",
+      "en": "Inglés",
+      "es": "Español"
+    }
+  }
+} 

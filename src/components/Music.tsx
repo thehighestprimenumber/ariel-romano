@@ -1,4 +1,5 @@
 import React from 'react'
+import { useTranslation } from 'react-i18next'
 
 interface MusicItem {
   title: string;
@@ -53,9 +54,12 @@ const musicItems: MusicItem[] = [
 ];
 
 const Music: React.FC = () => {
+  const { t } = useTranslation();
+
   return (
     <section id="music" className="section">
-      <h2>Music</h2>
+      <h2>{t('music.title')}</h2>
+      <p className="description">{t('music.description')}</p>
       <div className="bandcamp-container">
         {musicItems.map((item, index) => (
           <div key={index} className="music-item">
@@ -69,6 +73,9 @@ const Music: React.FC = () => {
           </div>
         ))}
       </div>
+      <a href="https://arielromano.bandcamp.com" className="view-more">
+        {t('music.viewMore')}
+      </a>
     </section>
   )
 }
